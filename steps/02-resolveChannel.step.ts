@@ -74,7 +74,7 @@ export const handler = async (eventData: any, { emit, logger, state }: any) => {
     }
 
     await emit({
-      topic: "yt.channel.resolved",
+      topic: "yt.channel.error",
       data: {
         jobId,
         email,
